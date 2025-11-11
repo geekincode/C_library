@@ -1,0 +1,21 @@
+# 简单示例
+name: John Smith
+age: 30
+is_student: false
+email: john.smith@example.com
+
+# 列表示例
+hobbies:
+  - reading
+  - swimming
+  - hiking
+
+# 嵌套对象示例
+address:
+  street: 123 Main St
+  city: New York
+  zipcode: 10001
+  country: USA
+
+# 数字列表
+scores: [85, 92, 78, 96]
