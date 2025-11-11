@@ -1,0 +1,68 @@
+# 复杂YAML示例
+company: Tech Corp
+founded: 2010
+active: true
+
+# 员工列表
+employees:
+  - id: 1
+    name: Alice Johnson
+    position: Software Engineer
+    skills:
+      - C++
+      - Python
+      - JavaScript
+    contact:
+      email: alice@techcorp.com
+      phone: "123-456-7890"
+    salary: 85000.50
+    full_time: true
+    
+  - id: 2
+    name: Bob Williams
+    position: Data Scientist
+    skills:
+      - Python
+      - R
+      - SQL
+    contact:
+      email: bob@techcorp.com
+      phone: "098-765-4321"
+    salary: 92000.75
+    full_time: true
+    
+  - id: 3
+    name: Carol Brown
+    position: Intern
+    skills:
+      - Java
+      - HTML
+    contact:
+      email: carol@techcorp.com
+      phone: "555-123-4567"
+    salary: 35000.00
+    full_time: false
+
+# 部门信息
+departments:
+  engineering:
+    head: Alice Johnson
+    budget: 500000
+    projects:
+      - name: Project A
+        status: active
+      - name: Project B
+        status: completed
+        
+  data_science:
+    head: Bob Williams
+    budget: 300000
+    projects:
+      - name: Project C
+        status: planning
+
+# 公司政策
+policies:
+  remote_work: allowed
+  vacation_days: 20
+  health_insurance: true
