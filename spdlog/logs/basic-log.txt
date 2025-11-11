@@ -1,0 +1,3 @@
+[2025-11-11 14:55:40.750] [file_logger] [info] Welcome to spdlog basic file logging!
+[2025-11-11 14:55:40.750] [file_logger] [info] Another message to file logger
+[2025-11-11 14:55:40.770] [file_logger] [info] Retrieved file logger by name
